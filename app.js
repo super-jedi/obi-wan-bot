@@ -19,7 +19,7 @@ client.on("message", msg => {
     }
 
     else if(msg.content === "!help"){
-        msg.reply("The jedi council only allows me to respond to two things: !hello and !help and !thank the maker")
+        msg.reply("The jedi council only allows me to respond to three things: !hello and !help and !thank the maker")
     }
     
     else if(msg.content === "!thank the maker"){
