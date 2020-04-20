@@ -21,6 +21,10 @@ client.on("message", msg => {
     else if(msg.content === "!help"){
         msg.reply("The jedi council only allows me to respond to two things: !hello and !help")
     }
+
+    else if(msg.content === "!who made you?"){
+        msg.reply("THE GREAT HARIKRISHNAN PS")
+    }
 });
 
 
