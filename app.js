@@ -23,7 +23,7 @@ client.on("message", msg => {
     }
     
     else if(msg.content === "thank the maker"){
-        msg.reply("I WAS CREATED BY THE GREAT HARIKRISHNAN PS")
+        msg.reply("I WAS CREATED BY THE GREAT HARIKRISHNAN PS. HE IS AWESOME. ALL THANKS TO HIM")
     }
     
     else if(msg.content === "who are you?"){
