@@ -19,12 +19,17 @@ client.on("message", msg => {
     }
 
     else if(msg.content === "!help"){
-        msg.reply("The jedi council only allows me to respond to three things: !hello and !help and !thank the maker")
+        msg.reply("The jedi council only allows me to respond to three things: !hello and !help and !thank the maker and !who are you?")
     }
     
     else if(msg.content === "!thank the maker"){
         msg.reply("I WAS CREATED BY THE GREAT HARIKRISHNAN PS")
     }
+    
+    else if(msg.content === "!who are you?"){
+        msg.reply("I AM MASTER OBI WAN KENOBI OF THE JEDI HIGH COUNCIL")
+    }
+
 });
 
 
