@@ -8,14 +8,16 @@ const client = new Discord.Client();
 // Display a message once the bot has started
 client.on("ready", ()=> {
     console.log(`Logged in as ${client.user.tag}!`);
+    msg.send("WHAT ABOUT THE DROID ATTACK ONN THE WOOKIES?");
 });
+
 
 
 // Check messages for a specific command
 client.on("message", msg => {
     // Send back a reply when the specific command has been written
     if (msg.content === "hello") {
-        msg.send("WELL HELLO THERE !");
+        msg.reply("WELL HELLO THERE !");
     }
 
     else if(msg.content === "help"){
