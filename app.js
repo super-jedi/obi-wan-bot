@@ -8,7 +8,7 @@ const client = new Discord.Client();
 // Display a message once the bot has started
 client.on("ready", ()=> {
     console.log(`Logged in as ${client.user.tag}!`);
-    msg.send("WHAT ABOUT THE DROID ATTACK ONN THE WOOKIES?");
+    msg.reply("WHAT ABOUT THE DROID ATTACK ONN THE WOOKIES?");
 });
 
 
