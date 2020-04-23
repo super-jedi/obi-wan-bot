@@ -15,7 +15,7 @@ client.on("ready", ()=> {
 client.on("message", msg => {
     // Send back a reply when the specific command has been written
     if (msg.content === "hello") {
-        msg.reply("WELL HELLO THERE !");
+        msg.send("WELL HELLO THERE !");
     }
 
     else if(msg.content === "help"){
