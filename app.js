@@ -44,16 +44,16 @@ client.on("message", msg => {
     
     else{
         switch (msg.content) {
-            case "You turned her against me": msg.channel.send("You have done that yourself.")
+            case "you turned her against me": msg.channel.send("You have done that yourself.")
             break;
         
-            case "the Jedi are evil": msg.channel.send("Well, then you are lost!")
+            case "the jedi are evil": msg.channel.send("Well, then you are lost!")
             break;
 
-            case "This is the end for you": msg.channel.send("It's over, Anakin. I have the high ground.")
+            case "this is the end for you": msg.channel.send("It's over, Anakin. I have the high ground.")
             break;
 
-            case "You underestimate my power": msg.channel.send("You were the chosen one!\nIt was said that you would destroy the Sith, not join them!\nBring balance to the Force...not leave it in darkness!")
+            case "you underestimate my power": msg.channel.send("You were the chosen one!\nIt was said that you would destroy the Sith, not join them!\nBring balance to the Force...not leave it in darkness!")
                                                 msg.channel.send("You were my brother, Anakin.\nI loved you.\n")
             break;
         }
