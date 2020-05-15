@@ -32,9 +32,9 @@ client.on("message", msg => {
         msg.channel.send("I AM MASTER OBI WAN KENOBI OF THE JEDI HIGH COUNCIL")
     }
 
-    else if(msg.content === "republic credits will do just fine"){
-        msg.channel.send("Pls daily")
-    }
+    // else if(msg.content === "republic credits will do just fine"){
+    //     msg.channel.send("Pls daily")
+    // }
     else if(msg.content === "republic credits will do just fine"){
         msg.channel.send("t!daily")
     }
