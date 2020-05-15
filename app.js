@@ -56,6 +56,8 @@ client.on("message", msg => {
             case "you underestimate my power": msg.channel.send("You were the chosen one!\nIt was said that you would destroy the Sith, not join them!\nBring balance to the Force...not leave it in darkness!")
                                                 msg.channel.send("You were my brother, Anakin.\nI loved you.\n")
             break;
+
+            case "Sith lord": msg.channel.send("Chancellor Palpatine, Sith lords are our speciality.")
         }
     }
 });
