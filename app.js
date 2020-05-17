@@ -58,6 +58,9 @@ client.on("message", msg => {
             break;
 
             case "Sith lord": msg.channel.send("Chancellor Palpatine, Sith lords are our speciality.")
+            break;
+
+            case "pls steal @DPR": msg.reply("So unciviliZed")
         }
     }
 });
