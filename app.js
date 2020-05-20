@@ -35,10 +35,10 @@ client.on("message", msg => {
     // else if(msg.content === "republic credits will do just fine"){
     //     msg.channel.send("Pls daily")
     // }
-    else if(msg.content === "hey" || "yes" || "lol" || "LOL" || "Lol" || "lol you suck, you found nothing" ){
-        msg.channel.send("Let her go, Anakin.")
-        msg.channel.send("Let her go")
-    }
+    // else if(msg.content === "hey" || "yes" || "lol" || "LOL" || "Lol" || "lol you suck, you found nothing" ){
+    //     msg.channel.send("Let her go, Anakin.")
+    //     msg.channel.send("Let her go")
+    // }
   
     
     else{
