@@ -46,21 +46,42 @@ client.on("message", msg => {
         switch (msg.content) {
             case "you turned her against me": msg.channel.send("You have done that yourself.")
             break;
-        
-            case "the jedi are evil": msg.channel.send("Well, then you are lost!")
+   
+            case "You will not take her from me!" :msg.channel.send("Your anger and your lust for power have already done that.")
             break;
 
-            case "this is the end for you": msg.channel.send("It's over, Anakin. I have the high ground.")
+            case "I do not fear the dark side as you do. I have brought peace, freedom, justice and security to my new empire.": msg.channel.send("Your new empire?")
             break;
 
-            case "you underestimate my power": msg.channel.send("You were the chosen one!\nIt was said that you would destroy the Sith, not join them!\nBring balance to the Force...not leave it in darkness!")
-                                                msg.channel.send("You were my brother, Anakin.\nI loved you.\n")
+            case "Don't make me kill you.": msg.channel.send("Anakin, my allegiance is to the Republic, to democracy!")
+            break;
+            
+            case "If you're not with me, then you're my enemy!": msg.channel.send("Only a Sith deals in absolutes. I will do what I must.")
             break;
 
+            case "You will try.": msg.channel.send("I have failed you, Anakin. I have failed you")
+            break;
+
+            case "I should have known the Jedi were plotting to take over.": msg.channel.send("Anakin, Chancellor Palpatine is evil!")
+            break;
+
+            case "From my point of view, the Jedi are evil.": msg.channel.send("Well, then you are lost!")
+            break;
+
+            case "This is the end for you, my master.": msg.channel.send("It's over, Anakin. I have the high ground.")
+          
+            case "You underestimate my power.": msg.channel.send("Don't try it")
+                                                msg.channel.send("You were the chosen one!\nIt was said that you would destroy the Sith, not join them!\n")
+                                                msg.channel.send("Bring balance to the Force.not leave it in darkness!")                                   
+            break;
+
+            case "I hate you!": msg.channel.send("You were my brother, Anakin.\nI loved you.\n")
+            break;
+            
             case "Sith lord": msg.channel.send("Chancellor Palpatine, Sith lords are our speciality.")
             break;
 
-            case "pls steal @DPR": msg.reply("So unciviliZed")
+
         }
     }
 });
