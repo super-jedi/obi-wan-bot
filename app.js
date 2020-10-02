@@ -40,6 +40,9 @@ client.on("message", msg => {
     //     msg.channel.send("Let her go")
     // }
   
+    else if(msg.content === "The Chancellor doesn't appear to be corrupt."){
+        msg.channel.send("Chancellor Palpatine is a politician.")
+    }
     
     else{
         switch (msg.content) {
