@@ -19,6 +19,9 @@ client.on("message", msg => {
     if (msg.content === "hello") {
         msg.channel.send("WELL HELLO THERE !");
     }
+    else if(msg.content === "trig"){
+        msg.channel.send(msg.content)
+    }
 
     else if(msg.content === "help"){
         msg.channel.send("The jedi council only allows me to respond to these things: hello and help and thank the maker and who are you?")
