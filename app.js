@@ -21,7 +21,7 @@ client.on("message", msg => {
     }
     
     else if(msg.content.slice(0,6) === "obirep"){
-        msg.channel.send(msg.content + "hello")
+        msg.channel.send(msg.content.slice(7,))
        
     }
     
