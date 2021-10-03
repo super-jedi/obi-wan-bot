@@ -20,11 +20,11 @@ client.on("message", msg => {
         msg.channel.send("WELL HELLO THERE !");
     }
     
-    else if(msg.content === "obirep"){
+    else if(msg.content.slice(0,6) === "obirep"){
         msg.channel.send(msg.content + "hello")
        
     }
-
+    
     else if(msg.content === "help"){
         msg.channel.send("The jedi council only allows me to respond to these things: hello and help and thank the maker and who are you?")
     }
