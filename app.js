@@ -21,6 +21,7 @@ client.on("message", msg => {
     }
     else if(msg.content === "trig"){
         msg.channel.send(msg.content)
+        break;
     }
 
     else if(msg.content === "help"){
