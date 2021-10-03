@@ -19,8 +19,8 @@ client.on("message", msg => {
     if (msg.content === "hello") {
         msg.channel.send("WELL HELLO THERE !");
     }
-    else if(msg.content === ("obirep"+ Text.slice(6,))){
-        msg.channel.send(msg.content + ".")
+    else if(msg.content === ("obirep"+ )){
+        msg.channel.send(msg.content + Text.slice(6,))
        
     }
 
