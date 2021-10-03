@@ -20,7 +20,7 @@ client.on("message", msg => {
         msg.channel.send("WELL HELLO THERE !");
     }
     else if(msg.content === "trig"){
-        msg.channel.send(msg.content + " ")
+        msg.channel.send(msg.content + ".")
        
     }
 
