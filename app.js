@@ -30,20 +30,14 @@ client.on("message", msg => {
     }
     
     else if(msg.content === "thank the maker"){
-        msg.channel.send("I WAS CREATED BY THE GREAT HARIKRISHNAN PS. HE IS AWESOME. ALL THANKS TO HIM")
+        msg.channel.send("HE IS AWESOME. ALL THANKS TO HIM")
     }
     
     else if(msg.content === "who are you?"){
         msg.channel.send("I AM MASTER OBI WAN KENOBI OF THE JEDI HIGH COUNCIL")
     }
 
-    // else if(msg.content === "republic credits will do just fine"){
-    //     msg.channel.send("Pls daily")
-    // }
-    // else if(msg.content === "hey" || "yes" || "lol" || "LOL" || "Lol" || "lol you suck, you found nothing" ){
-    //     msg.channel.send("Let her go, Anakin.")
-    //     msg.channel.send("Let her go")
-    // }
+   
   
     else if(msg.content === "The Chancellor doesn't appear to be corrupt."){
         msg.channel.send("Chancellor Palpatine is a politician.")
